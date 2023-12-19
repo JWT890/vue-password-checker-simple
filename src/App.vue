@@ -1,20 +1,15 @@
 <template>
   <div id="app">
-    <header>
-      <h1>Password Checker Test</h1>
-    </header>
+    <PasswordChecker />
   </div>
 </template>
+
 <script>
-import PasswordChecker from "./components/PasswordChecker.vue";
+import PasswordChecker from './components/PasswordChecker'
 
 export default {
   components: {
     PasswordChecker
-  },
-};
+  }
+}
 </script>
-
-<style>
-/* Add your global styles here */
-</style>
